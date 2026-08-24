@@ -18,7 +18,7 @@ int main(){
     int left=0;
     int right=m-1;
     
-    
+    while(top<=bottom && left<=right){
     //left->right
     
     for(int i=left;i<=right;i++){
@@ -49,6 +49,7 @@ int main(){
             cout<<arr[i][left]<<" ";
         }
         left++;
+    }
     }
     
     return 0;
